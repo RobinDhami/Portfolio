@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-custom {
+  /* Custom shadow properties */
+  box-shadow: 0 0 25px 0 rgb(220, 0, 248); /* Offset-y, blur radius, spread radius, color */
+  transition: all 0.3s ease-in-out; /* Optional: Add transition for smooth animation */
+}
+
+/* Hover effect example */
+.shadow-custom:hover {
+  transform: translateY(-5px); /* Optional: Add a subtle lift effect on hover */
+  box-shadow: 0 2px 5px rgb(220, 0, 248); /* Optional: Change shadow properties on hover */
+}
+.shadow-custom1 {
+  /* Custom shadow properties */
+  box-shadow: 0 0 25px 0 rgb(220, 0, 248); /* Offset-y, blur radius, spread radius, color */
+  transition: all 0.3s ease-in-out; /* Optional: Add transition for smooth animation */
+}
+
+/* Hover effect example */
+.shadow-custom:hover {
+  transform: translateY(-5px); /* Optional: Add a subtle lift effect on hover */
+  box-shadow: 0 2px 5px rgb(220, 0, 248); /* Optional: Change shadow properties on hover */
+}
