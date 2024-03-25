@@ -1,5 +1,6 @@
 # React + Vite
 Used Technology: React and Tailwindcss
+
 First Clone the repo then,
 cd portfolio
 npm install
