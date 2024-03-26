@@ -3,12 +3,12 @@ const App = () => {
   return (
     <div className="scroll-smooth ">
       {/* NAVBAR/////////////////////////////////////////// */}
-      <div className="scroll-smooth w-[100%] fixed flex h-1/10 justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50">
+      <div className="scroll-smooth lg:w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50">
         <div className="text-white text-3xl font-black">
           Rozen
           <span className="text-[#B700FB]"> Dhami </span>
         </div>
-        <div className="">
+        <div className="hidden lg:block">
           <ul className="flex justify-around gap-16">
             <li className="text-white font-semibold text-xl hover:text-[#B700FB]">
               <a href="#"> Home</a>
@@ -25,44 +25,43 @@ const App = () => {
           </ul>
         </div>
         <div className="">
-          <button className="bg-[#B700FB] rounded text-white px-6 py-2 hover:bg-[#b800fbad] ">
+          <button className="bg-[#B700FB] text-sm rounded text-white px-6 py-2 hover:bg-[#b800fbad] ">
             My Resume
           </button>
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex h-[100vh] pt-36 px-16  justify-evenly bg-gray-700">
+      <div className="relative lg:flex  pt-36 px-16  justify-evenly  bg-gray-700 lg:h-[110vh]">
         <div className="text-white flex-1 mr-5">
           <div className="">
-            <p className="text-5xl font-medium mt-9">I am </p>
-            <h1 className="text-7xl font-bold pl-4 mb-8 ">
-              Rozen <span className="text-[#B700FB]"> Dhami </span>
+            <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
+            <h1 className="text-5xl font-bold pl-4 mb-6 lg:text-7xl  ">
+              Rozen <span className="text-[#B700FB] pl-6 lg:pl-2"> Dhami </span>
             </h1>
 
-            <p className="text-2xl font-normal mt-12">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
-              dicta ipsum enim nemo deserunt quaerat repudiandae cumque fuga
-              velit nam illum eos libero impedit quam neque, nesciunt, vero
-              numquam. Voluptas.
+            <p className="text-xl lg:text-2xl font-normal lg:mt-12">
+            Thriving  to tackle complex challenges and transforming ideas into impactful experiences.
+             Through creativity, innovation, and dedication. 
+            Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
             <div className="mt-5">
-              <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white text-xl hover:bg-gray-700 shadow-custom mr-8 ">
+              <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
-              <button className="bg-none border-[#B700FB] border-2 rounded px-8 py-2 mt-8 text-white text-xl shadow-custom hover:bg-[rgb(244,0,255)]">
+              <button className="bg-none border-[#B700FB] border-2 rounded px-8 py-2 mt-8 text-white lg:text-xl shadow-custom hover:bg-[rgb(244,0,255)]">
                 Hire Me
               </button>
             </div>
           </div>
         </div>
-        <div className="text-white flex-1 ml-5">
+        <div className="text-white flex-1 ml-5 hidden lg:block">
           <img src="/portfolio.png" alt="" className="" />
         </div>
       </div>
       {/* SKILLS//////////////////////////////////////////// */}
-      <div className=" bg-gray-800  h-[120vh] w-full xl:h-[100vh]" id="Skills">
-        <div className=" text-2xl font-medium text-white text-center pt-4 ">
-          <h2 className="font-black mt-6 text-3xl">
+      <div className=" bg-gray-800   w-full " id="Skills">
+        <div className=" text-xl lg:text-2xl font-small lg:font-medium text-white text-center lg:pt-4 pt-2 ">
+          <h2 className="font-black mt-6 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Skills</span>
           </h2>
         </div>
