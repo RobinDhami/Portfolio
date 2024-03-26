@@ -31,7 +31,7 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex h-[110vh] pt-36 px-16  justify-evenly bg-gray-700">
+      <div className="relative flex h-[100vh] pt-36 px-16  justify-evenly bg-gray-700">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-5xl font-medium mt-9">I am </p>
