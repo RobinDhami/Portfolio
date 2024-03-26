@@ -28,7 +28,7 @@ const Skill = () => {
   ];
 
   // Render only the first 8 items if showAll is false, otherwise render all items
-  const renderImages = showAll ? imagesWithNames : imagesWithNames.slice(0, 8);
+  const renderImages = showAll ? imagesWithNames : imagesWithNames.slice(0, 10);
 
   return (
     <div className=" pt-20 pb-20 pr-40 pl-40 ml-20 mr-20 text-center">
