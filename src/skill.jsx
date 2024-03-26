@@ -28,18 +28,18 @@ const Skill = () => {
   ];
 
   // Render only the first 8 items if showAll is false, otherwise render all items
-  const renderImages = showAll ? imagesWithNames : imagesWithNames.slice(0, 8);
+  const renderImages = showAll ? imagesWithNames : imagesWithNames.slice(0, 10);
 
   return (
-    <div className=" pt-20 pb-20 pr-40 pl-40 ml-20 mr-20 text-center">
-      <ul className="flex gap-28 flex-wrap justify-around items-center">
+    <div className=" pt-10 pb-10 pr-20 pl-20 ml-10 mr-10  lg:pt-20 lg:pb-20 lg:pr-40 lg:pl-40 lg:ml-20 lg:mr-20 text-center">
+      <ul className="flex  flex-wrap justify-around items-center  lg:gap-28">
         {renderImages.map((image, index) => (
           <div key={index}>
             <li className="border-none rounded-lg bg-gray-800">
-              <img src={image.src} alt="" className="h-20 w-20" />
+              <img src={image.src} alt="" className="lg:h-20 lg:w-20 h-10 w-10 " />
             </li>
-            <div className="mt-10">
-              <span className="text-white font-medium text-xl ">
+            <div className="lg:mt-10 mt-5">
+              <span className="text-white font-medium lg:text-xl ">
                 {image.name}
               </span>
             </div>
@@ -50,7 +50,7 @@ const Skill = () => {
       {imagesWithNames.length > 8 && (
         <button
           onClick={toggleShowAll}
-          className="bg-[#B700FB] text-white px-8 py-2 mt-16 mb-12 rounded font-lg text-xl hover:bg-[#b800fbad]">
+          className="bg-[#B700FB] text-white px-8 py-2 mt-16 mb-12 rounded lg:font-lg text-xl hover:bg-[#b800fbad] ">
           {showAll ? "Show Less" : "View All"}
         </button>
       )}
