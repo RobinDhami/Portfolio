@@ -3,8 +3,8 @@ const App = () => {
   return (
     <div className="scroll-smooth ">
       {/* NAVBAR/////////////////////////////////////////// */}
-      <div className="scroll-smooth lg:w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50">
-        <div className="text-white text-3xl font-black">
+      <div className="scroll-smooth w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 lg:mb-25 z-50 mb-10">
+        <div className="text-white text-xl lg:text-3xl font-black">
           Rozen
           <span className="text-[#B700FB]"> Dhami </span>
         </div>
@@ -25,13 +25,13 @@ const App = () => {
           </ul>
         </div>
         <div className="">
-          <button className="bg-[#B700FB] text-sm rounded text-white px-6 py-2 hover:bg-[#b800fbad] ">
-            My Resume
+          <button className="bg-[#B700FB] text-sm rounded text-white lg:px-6 lg:py-2 hover:bg-[#b800fbad] px-2 py-2 ">
+             Resume
           </button>
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh]">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
@@ -44,7 +44,7 @@ const App = () => {
              Through creativity, innovation, and dedication. 
             Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
-            <div className="lg:mt-5 lg:block flex justify-center">
+            <div className="lg:mt-5 lg:block flex lg:justify-center lg:mb-8 mb-5">
               <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
@@ -54,7 +54,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="text-white flex-1 ml-5 hidden lg:block">
+        <div className="text-white flex-1 ml-5 hidden lg:block h-24">
           <img src="/portfolio.png" alt="" className="" />
         </div>
       </div>
@@ -68,7 +68,7 @@ const App = () => {
         <Skill/>
       </div>
       {/* PROJECTS//////////////////////////////////////// */}
-      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects overflow-hidden">
+      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] overflow-hidden" id="Projects">
         <div className=" text-xl lg:text-2xl font-medium text-white lg:mb-10 mb-5 text-center lg:pt-4 pt-4">
           <h2 className="font-black  lg:mt-6 lg:mb-16 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Projects</span>
@@ -76,26 +76,22 @@ const App = () => {
         </div>
         <div className="relative container flex lg:justify-between lg:mb-12">
           {/* Text//////////////////// */}
-          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal">
-            <h1 className="mb-4 pr-10">Multi-Vendor Ecommerce App</h1>
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm cursor-default">
-              React
+          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal ">
+            <h1 className="mb-4 pr-10">IPL Winning Probability Prediction App</h1>
+            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-4 font-regular text-gray-500 text-sm cursor-default">
+              Python
             </button>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              Express
+              Streamlit
             </button>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              MongoDB
+              Jupyter
             </button>
 
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              Node JS
-            </button>
             <p className="text-sm mt-4 text-gray-400 lg:w-[25vw]">
-              Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Nemo dolores quas laudantium autem atque deserunt illum
-              nesciunt architecto impedit nostrum! Tempora commodi ea quod
-              soluta officia iusto quisquam neque cumque!
+            IPL Winning Probability Prediction App! Utilizing  linear regression analysis, 
+            my app provides precise forecasts on IPL match outcomes. By analyzing historical team performance,
+             player statistics, and match venues and other statistics.
             </p>
             <button className="flex items-center bg-[rgb(244,0,255)] rounded px-6 py-3 mt-7 font-semibold text-white text-sm ">
               View Details
@@ -107,11 +103,11 @@ const App = () => {
             </button>
           </div>
           {/*  Image /////////////////// */}
-          <div className="relative text-white  text-2xl font-thin z-10 hidden sm:block lg:block">
+          <div className="relative text-white  text-2xl font-thin z-10 hidden sm:block lg:block ">
             <img
               src="/pro1.avif"
               alt=""
-              className=" pl-10 mt-10 size-8 h-[80%] w-[50vw]"
+              className=" pl-10 mt-10 size-8 h-[80%] w-[70vw]"
             />
           </div>
           <div className="absolute top-[1%] left-[40%] h-[60vh] w-[48vw] -z-5 border-8 border-white hidden sm:block lg:block"></div>
@@ -122,13 +118,13 @@ const App = () => {
             <img
               src="/project.jpg"
               alt=""
-              className=" pl-10 mt-10 size-8 h-[80%] w-[50vw] pr-10"
+              className=" pl-10 mt-10 size-8 h-[80%] w-[70vw] pr-10"
             />
           </div>
           <div className="absolute top-[1%] left-[10%] h-[60vh] w-[48vw] -z-5 border-8 border-white hidden sm:block lg:block"></div>
           {/* Text//////////////////// */}
           <div className="project text-white text-xl lg:text-2xl lg:ml-24 ml-12 size-8font-normal ">
-            <h1 className="lg:mb-4 lg:mt-2 mt-4">Real Time Chat Application</h1>
+            <h1 className="lg:mb-4 lg:mt-2 mt-4">Slot Machine Game</h1>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm">
               React
             </button>
@@ -136,17 +132,12 @@ const App = () => {
               Javascript
             </button>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
-              MERN
-            </button>
-
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
-              Tailwind
+              CSS
             </button>
             <p className="text-sm mt-4 text-gray-400 lg:w-[25vw]">
-              Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Nemo dolores quas laudantium autem atque deserunt illum
-              nesciunt architecto impedit nostrum! Tempora commodi ea quod
-              soluta officia iusto quisquam neque cumque!
+            web application built using React.js. It simulates the experience of a traditional slot machine, 
+            where users can click a button to spin the slots and receive random emojis.
+             If all three slots display the same emoji, the user wins.
             </p>
             <button className="flex items-center bg-[rgb(244,0,255)] rounded px-6 py-3 mt-7 font-semibold text-white text-sm ">
               View Details
@@ -158,9 +149,9 @@ const App = () => {
             </button>
           </div>
         </div>
-        <div className="relative container flex justify-between mb-8">
+        <div className="relative container flex justify-between mb-16">
           {/* Text//////////////////// */}
-          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal">
+          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal ">
           <h1 className="mb-4 lg:pr-10">Multi-Vendor Ecommerce App</h1>
           <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm cursor-default">
             React
@@ -342,7 +333,7 @@ const App = () => {
       </div>
 
       {/* FOOTER//////////////////////////////////////////////////*/}
-      <footer className="py-12 sm:py-16 bg-gray-700">
+      <footer className="py-12 sm:py-16 bg-gray-700 sm:1">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
           <div className="grid items-center grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">
             <div className="md:order-1">
