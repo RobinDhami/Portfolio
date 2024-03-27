@@ -4,7 +4,7 @@ const App = () => {
     <div className="scroll-smooth ">
       {/* NAVBAR/////////////////////////////////////////// */}
       <div className="scroll-smooth lg:w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50 ">
-        <div className="text-white text-3xl font-black">
+        <div className="text-white text-xl lg:text-3xl font-black">
           Rozen
           <span className="text-[#B700FB]"> Dhami </span>
         </div>
@@ -25,7 +25,7 @@ const App = () => {
           </ul>
         </div>
         <div className="">
-          <button className="bg-[#B700FB] text-sm rounded text-white px-6 py-2 hover:bg-[#b800fbad] ">
+          <button className="bg-[#B700FB] text-sm rounded text-white lg:px-6 lg:py-2 hover:bg-[#b800fbad] px-2 py-2 ">
             My Resume
           </button>
         </div>
@@ -44,7 +44,7 @@ const App = () => {
              Through creativity, innovation, and dedication. 
             Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
-            <div className="lg:mt-5 lg:block flex justify-center mb-8">
+            <div className="lg:mt-5 lg:block flex lg:justify-center lg:mb-8">
               <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
