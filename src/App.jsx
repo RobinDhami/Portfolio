@@ -31,7 +31,7 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto overflow-hidden mb-5">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto overflow-hidden ">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
@@ -44,7 +44,7 @@ const App = () => {
              Through creativity, innovation, and dedication. 
             Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
-            <div className="lg:mt-5 lg:block flex justify-center">
+            <div className="lg:mt-5 lg:block flex justify-center mb-5">
               <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
