@@ -31,7 +31,7 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh] overflow-hidden">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto overflow-hidden">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
