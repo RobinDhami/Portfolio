@@ -44,7 +44,7 @@ const App = () => {
              Through creativity, innovation, and dedication. 
             Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
-            <div className="lg:mt-5 lg:block flex lg:justify-center lg:mb-8">
+            <div className="lg:mt-5 lg:block flex lg:justify-center lg:mb-8 mb-5">
               <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
