@@ -1,4 +1,4 @@
-import Skill from "./skill.jsx"
+import Skill from "./skill.jsx";
 const App = () => {
   return (
     <div className="scroll-smooth ">
@@ -31,7 +31,7 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative lg:flex  pt-36 px-16  justify-evenly  bg-gray-700 lg:h-[110vh]">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh]">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
@@ -44,7 +44,7 @@ const App = () => {
              Through creativity, innovation, and dedication. 
             Let's connect and explore how we can collaborate to bring your vision to life.
             </p>
-            <div className="mt-5">
+            <div className="lg:mt-5 lg:block flex justify-center">
               <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
                 Explore
               </button>
@@ -61,37 +61,37 @@ const App = () => {
       {/* SKILLS//////////////////////////////////////////// */}
       <div className=" bg-gray-800   w-full " id="Skills">
         <div className=" text-xl lg:text-2xl font-small lg:font-medium text-white text-center lg:pt-4 pt-2 ">
-          <h2 className="font-black mt-6 text-xl lg:text-3xl">
+          <h2 className=" font-bold lg:font-black lg:mt-6 mt-3 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Skills</span>
           </h2>
         </div>
         <Skill/>
       </div>
       {/* PROJECTS//////////////////////////////////////// */}
-      <div className="bg-gray-700 h-[270vh]" id="Projects">
-        <div className=" text-2xl font-medium text-white mb-10 text-center pt-4 ">
-          <h2 className="font-black mt-6 mb-16 text-3xl">
+      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects ">
+        <div className=" text-xl lg:text-2xl font-medium text-white lg:mb-10 mb-5 text-center lg:pt-4 pt-4">
+          <h2 className="font-black  lg:mt-6 lg:mb-16 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Projects</span>
           </h2>
         </div>
-        <div className="relative container flex justify-between mb-12">
+        <div className="relative container flex lg:justify-between lg:mb-12">
           {/* Text//////////////////// */}
-          <div className="project text-white text-2xl ml-24 size-8font-normal">
-            <h1 className="mb-4">Real Time Chat Application</h1>
+          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal">
+            <h1 className="mb-4 pr-10">Multi-Vendor Ecommerce App</h1>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm cursor-default">
               React
             </button>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              Javascript
+              Express
             </button>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              MERN
+              MongoDB
             </button>
 
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
-              Tailwind
+              Node JS
             </button>
-            <p className="text-sm mt-4 text-gray-400 w-[25vw]">
+            <p className="text-sm mt-4 text-gray-400 lg:w-[25vw]">
               Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
               elit. Nemo dolores quas laudantium autem atque deserunt illum
               nesciunt architecto impedit nostrum! Tempora commodi ea quod
@@ -107,28 +107,28 @@ const App = () => {
             </button>
           </div>
           {/*  Image /////////////////// */}
-          <div className="relative text-white  text-2xl font-thin z-10">
+          <div className="relative text-white  text-2xl font-thin z-10 hidden sm:block lg:block">
             <img
               src="/pro1.avif"
               alt=""
               className=" pl-10 mt-10 size-8 h-[80%] w-[50vw]"
             />
           </div>
-          <div className="absolute top-[1%] left-[40%] h-[60vh] w-[48vw] -z-5 border-8 border-white"></div>
+          <div className="absolute top-[1%] left-[40%] h-[60vh] w-[48vw] -z-5 border-8 border-white hidden sm:block lg:block"></div>
         </div>
         <div className="relative container flex justify-between mb-16 ">
           {/*  Image /////////////////// */}
-          <div className="relative text-white  text-2xl font-thin z-10">
+          <div className="relative text-white  text-xl lg:text-2xl font-thin z-10 pr-20 hidden sm:block lg:block">
             <img
               src="/project.jpg"
               alt=""
-              className=" pl-10 mt-10 size-8 h-[80%] w-[50vw]"
+              className=" pl-10 mt-10 size-8 h-[80%] w-[50vw] pr-10"
             />
           </div>
-          <div className="absolute top-[1%] left-[10%] h-[60vh] w-[48vw] -z-5 border-8 border-white"></div>
+          <div className="absolute top-[1%] left-[10%] h-[60vh] w-[48vw] -z-5 border-8 border-white hidden sm:block lg:block"></div>
           {/* Text//////////////////// */}
-          <div className="project text-white text-2xl ml-24 size-8font-normal">
-            <h1 className="mb-4">Real Time Chat Application</h1>
+          <div className="project text-white text-xl lg:text-2xl lg:ml-24 ml-12 size-8font-normal ">
+            <h1 className="lg:mb-4 lg:mt-2 mt-4">Real Time Chat Application</h1>
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm">
               React
             </button>
@@ -142,40 +142,7 @@ const App = () => {
             <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
               Tailwind
             </button>
-            <p className="text-sm mt-4 text-gray-400 w-[25vw]">
-              Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Nemo dolores quas laudantium autem atque deserunt illum
-              nesciunt architecto impedit nostrum! Tempora commodi ea quod
-              soluta officia iusto quisquam neque cumque!
-            </p>
-            <button className="flex items-center bg-[rgb(244,0,255)] rounded px-6 py-3 mt-7 font-semibold text-white text-sm  ">
-              View Details
-              <img
-                src="public/icons8-right-arrow-16.png"
-                alt=""
-                className="ml-2"
-              />
-            </button>
-          </div>
-        </div>
-        <div className="relative container flex justify-between mb-8">
-          {/* Text//////////////////// */}
-          <div className="project text-white text-2xl ml-24 size-8font-normal">
-            <h1 className="mb-4">Real Time Chat Application</h1>
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm">
-              React
-            </button>
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
-              Javascript
-            </button>
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
-              MERN
-            </button>
-
-            <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm">
-              Tailwind
-            </button>
-            <p className="text-sm mt-4 text-gray-400 w-[25vw]">
+            <p className="text-sm mt-4 text-gray-400 lg:w-[25vw]">
               Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
               elit. Nemo dolores quas laudantium autem atque deserunt illum
               nesciunt architecto impedit nostrum! Tempora commodi ea quod
@@ -186,28 +153,64 @@ const App = () => {
               <img
                 src="public/icons8-right-arrow-16.png"
                 alt=""
-                className="ml-2"
+                className="ml-2 "
               />
             </button>
           </div>
+        </div>
+        <div className="relative container flex justify-between mb-8">
+          {/* Text//////////////////// */}
+          <div className="project text-white text-xl lg:text-2xl ml-12 lg:ml-24 font-normal">
+          <h1 className="mb-4 lg:pr-10">Multi-Vendor Ecommerce App</h1>
+          <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 mr-2 font-regular text-gray-500 text-sm cursor-default">
+            React
+          </button>
+          <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
+            Express
+          </button>
+          <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
+            MongoDB
+          </button>
+
+          <button className="flex-start items-center border-2 border-gray-500 rounded p-1 px-3 m-2 font-regular text-gray-500 text-sm cursor-default">
+            Node JS
+          </button>
+          <p className="text-sm mt-4 text-gray-400 lg:w-[25vw]">
+            Hello friend! Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Nemo dolores quas laudantium autem atque deserunt illum
+            nesciunt architecto impedit nostrum! Tempora commodi ea quod
+            soluta officia iusto quisquam neque cumque!
+          </p>
+          <button className="flex items-center bg-[rgb(244,0,255)] rounded px-6 py-3 mt-7 font-semibold text-white text-sm ">
+            View Details
+            <img
+              src="/icons8-right-arrow-16.png"
+              alt=""
+              className="ml-2"
+            />
+          </button>
+        </div>
           {/*  Image /////////////////// */}
-          <div className="relative text-white  text-2xl font-thin z-10">
+          <div className="relative text-white  text-2xl font-thin z-10 hidden sm:block lg:block">
             <img
               src="/project-management.png"
               alt=""
               className=" pl-10 mt-10 size-8 h-[80%] w-[50vw]"
             />
           </div>
-          <div className="absolute top-[1%] left-[40%] h-[60vh] w-[48vw] -z-5 border-8 border-white"></div>
+          <div className="absolute top-[1%] left-[40%] h-[60vh] w-[48vw] -z-5 border-8 border-white hidden sm:block lg:block"></div>
         </div>
-        <button className="flex items-center px-6 py-3 font-semibold text-white text-medium ml-[45%] bg-[#B700FB] mb-4 rounded font-lg hover:bg-[#b800fbad]">
-          <a href="https://github.com/RobinDhami?tab=repositories">See more</a>
-          <img src="/icons8-right-arrow-16.png" alt="" className="ml-3" />
-        </button>
+        <div className="lg:pl-10 pl-36">
+        <button className="flex items-center  px-6 py-3 font-bold lg:font-semibold text-white text-medium ml-[45%] lg:bg-[#B700FB] mb-4 rounded font-lg hover:bg-[#b800fbad] ">
+        <a href="https://github.com/RobinDhami?tab=repositories">See more</a>
+        <img src="/icons8-right-arrow-16.png" alt="" className="ml-3" />
+      </button>
+      </div>
+        
       </div>
 
       {/* CONTACT///////////////////////////////////////// */}
-      <div className="h-[100vh] bg-gray-800 " id="Contact">
+      <div className=" bg-gray-800 " id="Contact">
         <section className="py-12 bg-gray-800 sm:py-16 lg:py-20 xl:py-24 ">
           <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-x-16 xl:gap-x-36">
