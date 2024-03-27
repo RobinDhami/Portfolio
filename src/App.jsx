@@ -3,7 +3,7 @@ const App = () => {
   return (
     <div className="scroll-smooth ">
       {/* NAVBAR/////////////////////////////////////////// */}
-      <div className="scroll-smooth lg:w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50 ">
+      <div className="scroll-smooth w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 mb-25 z-50 ">
         <div className="text-white text-xl lg:text-3xl font-black">
           Rozen
           <span className="text-[#B700FB]"> Dhami </span>
