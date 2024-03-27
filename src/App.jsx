@@ -31,7 +31,7 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh]">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh] overflow-hidden">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
@@ -59,7 +59,7 @@ const App = () => {
         </div>
       </div>
       {/* SKILLS//////////////////////////////////////////// */}
-      <div className=" bg-gray-800   w-full " id="Skills">
+      <div className=" bg-gray-800   w-full overflow-hidden" id="Skills">
         <div className=" text-xl lg:text-2xl font-small lg:font-medium text-white text-center lg:pt-4 pt-2 ">
           <h2 className=" font-bold lg:font-black lg:mt-6 mt-3 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Skills</span>
@@ -68,7 +68,7 @@ const App = () => {
         <Skill/>
       </div>
       {/* PROJECTS//////////////////////////////////////// */}
-      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects ">
+      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects overflow-hidden">
         <div className=" text-xl lg:text-2xl font-medium text-white lg:mb-10 mb-5 text-center lg:pt-4 pt-4">
           <h2 className="font-black  lg:mt-6 lg:mb-16 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Projects</span>
