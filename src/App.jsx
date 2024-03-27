@@ -26,7 +26,7 @@ const App = () => {
         </div>
         <div className="">
           <button className="bg-[#B700FB] text-sm rounded text-white lg:px-6 lg:py-2 hover:bg-[#b800fbad] px-2 py-2 ">
-            My Resume
+             Resume
           </button>
         </div>
       </div>
