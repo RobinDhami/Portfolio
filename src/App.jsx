@@ -30,34 +30,36 @@ const App = () => {
           </button>
         </div>
       </div>
-{/* HEROSECTION///////////////////////////////////// */}
-<div className="relative flex lg:pt-36 pt-36 px-8 lg:px-16 justify-evenly bg-gray-700 overflow-hidden ">
-  <div className="text-white flex-1 mr-5">
-    <div className="">
-      <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
-      <h1 className="text-5xl font-bold pl-4 mb-6 lg:text-7xl">
-        Rozen <span className="text-[#B700FB] pl-6 lg:pl-2"> Dhami </span>
-      </h1>
-      <p className="text-xl lg:text-2xl font-normal lg:mt-12">
-        Thriving to tackle complex challenges and transforming ideas into impactful experiences. Through creativity, innovation, and dedication. Let's connect and explore how we can collaborate to bring your vision to life.
-      </p>
-      <div className="lg:mt-5 lg:block flex justify-center mb-5">
-        <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
-          Explore
-        </button>
-        <button className="bg-none border-[#B700FB] border-2 rounded px-8 py-2 mt-8 text-white lg:text-xl shadow-custom hover:bg-[rgb(244,0,255)]">
-          Hire Me
-        </button>
-      </div>
-    </div>
-  </div>
-  <div className="text-white flex-1 ml-5 hidden lg:block">
-    <img src="/portfolio.png" alt="" className="" />
-  </div>
-</div>
+      {/* HEROSECTION///////////////////////////////////// */}
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-[63vh]">
+        <div className="text-white flex-1 mr-5">
+          <div className="">
+            <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
+            <h1 className="text-5xl font-bold pl-4 mb-6 lg:text-7xl  ">
+              Rozen <span className="text-[#B700FB] pl-6 lg:pl-2"> Dhami </span>
+            </h1>
 
+            <p className="text-xl lg:text-2xl font-normal lg:mt-12">
+            Thriving  to tackle complex challenges and transforming ideas into impactful experiences.
+             Through creativity, innovation, and dedication. 
+            Let's connect and explore how we can collaborate to bring your vision to life.
+            </p>
+            <div className="lg:mt-5 lg:block flex justify-center">
+              <button className="bg-[rgb(244,0,255)] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-gray-700 shadow-custom mr-8 ">
+                Explore
+              </button>
+              <button className="bg-none border-[#B700FB] border-2 rounded px-8 py-2 mt-8 text-white lg:text-xl shadow-custom hover:bg-[rgb(244,0,255)]">
+                Hire Me
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="text-white flex-1 ml-5 hidden lg:block">
+          <img src="/portfolio.png" alt="" className="" />
+        </div>
+      </div>
       {/* SKILLS//////////////////////////////////////////// */}
-      <div className=" bg-gray-800   w-full " id="Skills">
+      <div className=" bg-gray-800   w-full overflow-hidden" id="Skills">
         <div className=" text-xl lg:text-2xl font-small lg:font-medium text-white text-center lg:pt-4 pt-2 ">
           <h2 className=" font-bold lg:font-black lg:mt-6 mt-3 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Skills</span>
@@ -66,7 +68,7 @@ const App = () => {
         <Skill/>
       </div>
       {/* PROJECTS//////////////////////////////////////// */}
-      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects ">
+      <div className="bg-gray-700 h-[116vh] lg:h-[260vh] " id="Projects overflow-hidden">
         <div className=" text-xl lg:text-2xl font-medium text-white lg:mb-10 mb-5 text-center lg:pt-4 pt-4">
           <h2 className="font-black  lg:mt-6 lg:mb-16 text-xl lg:text-3xl">
             My <span className="text-[#B700FB] ">Projects</span>
