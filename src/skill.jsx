@@ -50,7 +50,7 @@ const Skill = () => {
       {imagesWithNames.length > 8 && (
         <button
           onClick={toggleShowAll}
-          className="bg-[#B700FB] text-white px-8 py-2 mt-16 mb-12 rounded lg:font-lg text-xl hover:bg-[#b800fbad] ">
+          className="bg-[#B700FB] text-white px-8 py-2 mt-16 lg:mb-12 mb-8 rounded lg:font-lg text-xl hover:bg-[#b800fbad] ">
           {showAll ? "Show Less" : "View All"}
         </button>
       )}

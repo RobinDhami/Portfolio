@@ -3,7 +3,7 @@ const App = () => {
   return (
     <div className="scroll-smooth ">
       {/* NAVBAR/////////////////////////////////////////// */}
-      <div className="scroll-smooth w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 lg:mb-25 z-50 mb-10">
+      <div className="scroll-smooth w-[100%] fixed flex  justify-between items-center bg-gray-800 p-8 px-16 shadow-2xl t-0 l-0 r-0 lg:mb-25 z-50 mb-10 lg:pr-20 pr-5 pl-10 lg:pl-20">
         <div className="text-white text-xl lg:text-3xl font-black">
           Rozen
           <span className="text-[#B700FB]"> Dhami </span>
@@ -31,12 +31,12 @@ const App = () => {
         </div>
       </div>
       {/* HEROSECTION///////////////////////////////////// */}
-      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto">
+      <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16  justify-evenly  bg-gray-700 lg:h-[110vh] h-auto ">
         <div className="text-white flex-1 mr-5">
           <div className="">
             <p className="text-3xl lg:text-5xl font-medium mt-9">I am </p>
             <h1 className="text-5xl font-bold pl-4 mb-6 lg:text-7xl  ">
-              Rozen <span className="text-[#B700FB] pl-6 lg:pl-2"> Dhami </span>
+              Rozen <span className="text-[#B700FB] lg:pl-2"> Dhami </span>
             </h1>
 
             <p className="text-xl lg:text-2xl font-normal lg:mt-12">
@@ -54,7 +54,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="text-white flex-1 ml-5 hidden lg:block h-24">
+        <div className="text-white flex-1 mb-8 ml-5 hidden lg:block h-24">
           <img src="/portfolio.png" alt="" className="" />
         </div>
       </div>
